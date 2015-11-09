@@ -36,7 +36,7 @@ $response_array = json_decode($ch_response,true);
 # You can use any emoji that is available to your Slack team, including the custom ones.
 
 if($ch_response === FALSE){
-# isitup.org could not be reached
+# Dark Sky could not be reached
 $reply = "Dark Sky could not be reached.";
 }else{
 #$reply = "".$response_array["currently"]."|".$response_array["currently"]." // made with :heart: by Harsh in San Francisco";
